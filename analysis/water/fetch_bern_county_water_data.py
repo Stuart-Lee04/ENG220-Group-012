@@ -18,7 +18,7 @@ def load_data(filepath):
     return df
 
 # Assuming your dataset file path
-data_path = 'ce1d0932-1914-4de2-97b7-a13e034c6a4a.csv'  # Replace with your actual data file path
+data_path = '../../data/water/ce1d0932-1914-4de2-97b7-a13e034c6a4a.csv'  # Replace with your actual data file path
 df = load_data(data_path)
 
 st.title('Well Water Depth Visualization')
