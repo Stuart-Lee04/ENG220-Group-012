@@ -5,7 +5,7 @@ FROM python:3.8
 WORKDIR /app
 
 # Copy the requirements.txt file into the container at /app
-COPY requirements.txt /app/
+COPY docker_requirements.txt /app/
 
 # Install the Python dependencies
 RUN pip3 install --no-cache-dir -r requirements.txt
