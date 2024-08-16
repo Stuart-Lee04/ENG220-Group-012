@@ -15,7 +15,7 @@ This project is a Streamlit application to implement a data dashboard for the st
 - Install the required Python packages and a virtual environment. We will be using python 3.8 for this project.
 - Download and Installation instructions for different operating systems on [python.org](python.org).
 - Download and Installation instructions for conda are different operating systems are available on [anaconda.org](anaconda.org).
-- Install streamlit libraries in the python environment and ensure all the libraries and working and are installed. Instruction are available on [docs.streamlit.io](docs.streamlit.io).
+- Install streamlit libraries in the python environment and ensure all the libraries and working and are installed. Instruction are available on [[https://docs.streamlit.io/](https://docs.streamlit.io/)).
 - All of these instructions are compiled in this page [https://docs.streamlit.io/get-started/installation/anaconda-distribution](https://docs.streamlit.io/get-started/installation/anaconda-distribution)
 
 ### Clone the Repository
