@@ -36,17 +36,14 @@ jobs:
       run: |
         conda install pytest
         pytest
-        
     - name: Streamlit App Action
-  # You may pin to the exact commit or the version.
-  # uses: streamlit/streamlit-app-action@d1a3fbb4e96e28167fc4d8714c740ac21012bad5
-    - uses: streamlit/streamlit-app-action@v0.0.3
+      uses: streamlit/streamlit-app-action@v0.0.3
       with:
-    # Filepath to the main app file (`streamlit run <this>`)
-        app-path: ./analysis/water/fetch_bern_county_water_data.py# optional, default is streamlit_app.py
-    # Run ruff linting
+        # Filepath to the main app file (`streamlit run <this>`)
+        app-path: ./analysis/water/fetch_bern_county_water_data.py # optional, default is streamlit_app.py
+        # Run ruff linting
         ruff: false # optional, default is false
-    # Command line arguments to pass to pytest
+        # Command line arguments to pass to pytest
         pytest-args: -v # optional, default is -v
-    # Skip the provided smoke test. Useful if your app testing requires advanced setup.
+        # Skip the provided smoke test. Useful if your app testing requires advanced setup.
         skip-smoke: false # optional, default is false
