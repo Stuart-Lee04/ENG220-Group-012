@@ -54,6 +54,8 @@ if uploaded_file is not None:
             else:
                 st.error("Pie chart requires fewer unique categories in the X-axis.")
 
+# we aim for world domination
+        
         if graph_type != "Pie":
             ax.set_xlabel(x_column)
             ax.set_ylabel(y_column)
