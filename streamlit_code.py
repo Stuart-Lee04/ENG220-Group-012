@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 st.title("CSV Data Visualization App")
 
 # File uploader for CSV
-uploaded_file = st.file_uploader("ratings.csv", type=["csv"])
+uploaded_file = st.file_uploader("gunarchieve_cleaned_team12.csv", type=["csv"])
 
 if uploaded_file is not None:
     # Read the CSV file
